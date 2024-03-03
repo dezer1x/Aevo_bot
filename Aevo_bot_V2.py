@@ -299,6 +299,18 @@ texts = {
     }
 }
 
+def create_users_table():
+  conn = sqlite3.connect('aevo_bot.db')
+  c = conn.cursor()
+  c.execute('''CREATE TABLE IF NOT EXISTS users (
+                  user_id INTEGER PRIMARY KEY,
+                  language TEXT
+              )''')
+  conn.commit()
+  conn.close()
+
+create_users_table()
+
 def save_user_language(user_id, language):
     conn = sqlite3.connect('aevo_bot.db')
     c = conn.cursor()
