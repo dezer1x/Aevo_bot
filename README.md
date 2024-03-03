@@ -13,9 +13,9 @@ In V1 bot has basic functions and commands such as:
 /funding -  information about funding on the market  
 
 **V2 version:**   
-List of commands and changes in V2:    
-&nbsp;- Fixed bugs    
-&nbsp;- Improved visual of bot     
+List of commands and changes in V2:  
+&nbsp;\- Fixed bugs    
+&nbsp;\- Improved visual of bot     
 /lang - set the bot language (now available: en, ru, es, ua, fr, pl, it)   
 /set_alert_long - command to set a long alert for the asset price  
 /set_alert_short - command to set a short alert for the asset price  
