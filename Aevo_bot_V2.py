@@ -145,7 +145,7 @@ def send_funding(message):
 texts = {
     'en': {
         'welcome': "Hello! I am the Helper bot for Aevo.\nType /help for a list of commands",
-        'help': "All bot commands: \n/about - information about Aevo.\n/links - official links of Aevo.\n/assets - list of assets that are available for trading on Aevo.\n/price - view the price of assets.\n/funding - information about funding.",
+        'help': "All bot commands: \n/about - information about Aevo.\n/links - official links of Aevo.\n/assets - list of assets that are available for trading on Aevo.\n/price - view the price of assets.\n/funding - information about funding.\n/lang - set bot language.\n/set\_alert\_long - set a long alert for the asset price.\n/set\_alert\_short - set a short alert for the asset price.",
         'about': "Aevo is a high-performance decentralized derivatives exchange platform, focused on options and perpetual contracts, runs on a custom EVM roll-up that rolls up to Ethereum.",
         'price_error': "Specify the asset ticker. For example: /price BTC",
         'funding_error': "Specify the asset ticker. For example: /funding BTC",
@@ -167,7 +167,7 @@ texts = {
     },
     'ua': {
         'welcome': "Привіт! Я бот-помічник для Aevo.\nНапишіть /help, щоб отримати список доступних команд",
-        'help': "Усі команди бота:\n/about - інформація про Aevo.\n/links - офіційні посилання на Aevo.\n/assets - список активів, доступних для торгівлі на Aevo.\n/price - перегляд ціни активів.\n/funding - інформація про фандинг.",
+        'help': "Усі команди бота:\n/about - інформація про Aevo.\n/links - офіційні посилання на Aevo.\n/assets - список активів, доступних для торгівлі на Aevo.\n/price - перегляд ціни активів.\n/funding - інформація про фандинг.\n/lang - встановити мову бота. \n/set\_alert\_long - встановити long сповіщення про ціну активу.\n/set\_alert\_short - встановити short сповіщення про ціну активу.",
         'about': "Aevo - це високопродуктивна децентралізована платформа для обміну деривативами, орієнтована на опціони та безстрокові контракти, що працює на власному EVM roll-up, який розгортується на Ethereum.",
         'price_error': "Вкажіть тікер активу. Наприклад: /price BTC",
         'funding_error': "Вкажіть тікер активу. Наприклад: /funding BTC",
@@ -189,7 +189,7 @@ texts = {
     },
     'ru': {
         'welcome': "Привет! Я бот-помощник для Aevo.\nВведите /help, чтобы получить доступных список команд",
-        'help': "Все команды бота:\n/about - информация о Aevo.\n/links - официальные ссылки на Aevo.\n/assets - список активов, доступных для торговли на Aevo.\n/price - просмотр цены активов.\n/funding - информация о фандинге.",
+        'help': "Все команды бота:\n/about - информация о Aevo.\n/links - официальные ссылки на Aevo.\n/assets - список активов, доступных для торговли на Aevo.\n/price - просмотр цены активов.\n/funding - информация о фандинге.\n/lang - установить язык бота.\n/set\_alert\_long - установить long уведомление о цене актива.\n/set\_alert\_short - установить short уведомление о цене актива.",
         'about': "Aevo - это высокопроизводительная децентрализованная платформа для обмена деривативами, ориентированная на опционы и бессрочные контракты, работающая на собственной платформе EVM, развернутой на Ethereum.",
         'price_error': "Укажите тикер актива. Например: /price BTC",
         'funding_error': "Укажите тикер актива. Например: /funding BTC",
@@ -211,7 +211,7 @@ texts = {
     },
     'es': {
         'welcome': "¡Hola! Soy el bot ayudante de Aevo.\nEscribe /help para obtener una lista de comandos",
-        'help': "Todos los comandos del bot: \n/about - información sobre Aevo.\n/links - enlaces oficiales de Aevo.\n/assets - lista de activos disponibles para negociar en Aevo.\n/price - ver el precio de los activos.\n/funding - información sobre funding.",
+        'help': "Todos los comandos del bot: \n/about - información sobre Aevo.\n/links - enlaces oficiales de Aevo.\n/assets - lista de activos disponibles para negociar en Aevo.\n/price - ver el precio de los activos.\n/funding - información sobre funding.\n/lang - establecer el idioma del bot.\n/set\_alert\_long - establecer una alerta long para el precio del activo.\n/set\_alert\_short - establecer una alerta short para el precio del activo.",
         'about': "Aevo es una plataforma descentralizada de alto rendimiento para derivados, enfocada en opciones y contratos perpetuos, que se ejecuta en un roll-up EVM personalizado que se roll up a Ethereum.",
         'price_error': "Especifica el ticker del activo. Por ejemplo: /price BTC",
         'funding_error': "Especifica el ticker del activo. Por ejemplo: /funding BTC",
@@ -233,7 +233,7 @@ texts = {
     },
     'fr': {
         'welcome': "Salut! Je suis le bot assistant d'Aevo.\nTapez /help pour obtenir une liste de commandes",
-        'help': "Toutes les commandes du bot: \n/about - informations sur Aevo.\n/links - liens officiels d'Aevo.\n/assets - liste des actifs disponibles pour le trading sur Aevo.\n/price - voir le prix des actifs.\n/funding - informations sur le funding.",
+        'help': "Toutes les commandes du bot: \n/about - informations sur Aevo.\n/links - liens officiels d'Aevo.\n/assets - liste des actifs disponibles pour le trading sur Aevo.\n/price - voir le prix des actifs.\n/funding - informations sur le funding.\n/lang - définir la langue du bot.\n/set\_alert\_long - définir une alerte long pour le prix de l'actif.\n/set\_alert\_short - définir une alerte short pour le prix de l'actif.",
         'about': "Aevo est une plateforme de trading de dérivés décentralisée à haute performance, axée sur les options et les contrats perpétuels, fonctionnant sur un roll-up EVM personnalisé qui se déploie sur Ethereum.",
         'price_error': "Spécifiez le ticker de l'actif. Par exemple: /price BTC",
         'funding_error': "Spécifiez le ticker de l'actif. Par exemple: /funding BTC",
@@ -255,7 +255,7 @@ texts = {
     },
     'pl': {
         'welcome': "Cześć! Jestem botem pomocnikiem dla Aevo.\nWpisz /help, aby uzyskać listę poleceń",
-        'help': "Wszystkie polecenia bota: \n/about - informacje o Aevo.\n/links - oficjalne linki Aevo.\n/assets - lista aktywów dostępnych do handlu na Aevo.\n/price - wyświetl cenę aktywów.\n/funding - informacje o funding.",
+        'help': "Wszystkie polecenia bota: \n/about - informacje o Aevo.\n/links - oficjalne linki Aevo.\n/assets - lista aktywów dostępnych do handlu na Aevo.\n/price - wyświetl cenę aktywów.\n/funding - informacje o funding.\n/lang - ustawić język bota.\n/set_alert_long - ustawić long powiadomienie o cenie aktywa.\n/set_alert_short - ustawić short powiadomienie o cenie aktywa.",
         'about': "Aevo to wysokowydajna zdecentralizowana platforma do handlu instrumentami pochodnymi, skoncentrowana na opcjach i kontraktach terminowych, działająca na specjalnym EVM roll-up, który roll up do Ethereum.",
         'price_error': "Podaj ticker aktywa. Na przykład: /price BTC",
         'funding_error': "Podaj ticker aktywa. Na przykład: /funding BTC",
@@ -277,7 +277,7 @@ texts = {
     },
     'it': {
         'welcome': "Ciao! Sono il bot assistente di Aevo.\nDigita /help per ottenere una lista di comandi",
-        'help': "Tutti i comandi del bot: \n/about - informazioni su Aevo.\n/links - link ufficiali di Aevo.\n/assets - elenco degli asset disponibili per il trading su Aevo.\n/price - visualizza il prezzo degli asset.\n/funding - informazioni sul funding.",
+        'help': "Tutti i comandi del bot: \n/about - informazioni su Aevo.\n/links - link ufficiali di Aevo.\n/assets - elenco degli asset disponibili per il trading su Aevo.\n/price - visualizza il prezzo degli asset.\n/funding - informazioni sul funding./lang - impostare la lingua del bot. /set\_alert\_long - impostare un'allerta long per il prezzo dell'attivo. /set\_alert\_short - impostare un'avviso short per il prezzo dell'attivo.",
         'about': "Aevo è una piattaforma decentralizzata ad alte prestazioni per derivati, focalizzata su opzioni e contratti perpetui, che funziona su un roll-up EVM personalizzato che si roll up su Ethereum.",
         'price_error': "Specifica il ticker dell'asset. Ad esempio: /price BTC",
         'funding_error': "Specifica il ticker dell'asset. Ad esempio: /funding BTC",
